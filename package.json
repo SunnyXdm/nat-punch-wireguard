@@ -4,8 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"server": "node server.js",
-		"client": "sudo $(which node) client.js"
+		"server": "node server.mjs",
+		"client": "sudo $(which node) client.mjs"
 	},
 	"keywords": [],
 	"author": "",
