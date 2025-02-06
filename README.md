@@ -31,7 +31,7 @@ This project demonstrates how to create a peer-to-peer connection using WireGuar
 
 2. Install dependencies:
     ```sh
-    npm install
+    pnpm install
     ```
 
 ## Usage
@@ -40,7 +40,7 @@ This project demonstrates how to create a peer-to-peer connection using WireGuar
 
 Start the signaling server:
 ```sh
-npm run server
+pnpm run server
 ```
 The server will listen on port 8080 for WebSocket connections.
 
@@ -48,11 +48,11 @@ The server will listen on port 8080 for WebSocket connections.
 
 1. On device `a`, run the client script:
     ```sh
-    npm run client
+    pnpm run client
     ```
 2. On device `b`, run the client script:
     ```sh
-    npm run client
+    pnpm run client
     ```
 
 The clients will connect to the signaling server, exchange STUN mappings, and configure WireGuard interfaces to establish a peer-to-peer connection.
